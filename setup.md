@@ -128,6 +128,7 @@ $ yo webapp
 gdal / topojson
 ---------------
 ````bash
+# gdal
 $ mkdir ~/downloads
 $ cd ~/downloads
 $ sudo apt-get install build-essential python-all-dev
@@ -139,4 +140,7 @@ $ ./configure --with-python
 $ make
 $ sudo make install
 $ sudo ldconfig
+
+# topojson
+$ npm install -g topojson
 ````
