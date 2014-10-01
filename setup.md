@@ -125,4 +125,18 @@ $ cd my-yo-project
 $ yo webapp
 ````
 
-
+gdal / topojson
+---------------
+````bash
+$ mkdir ~/downloads
+$ cd ~/downloads
+$ sudo apt-get install build-essential python-all-dev
+$ wget http://download.osgeo.org/gdal/1.11.1/gdal-1.11.1.tar.gz
+$ tar xvfz gdal-1.11.1.tar.gz
+$ cd gdal-1.11.1
+# configure with python bindings
+$ ./configure --with-python
+$ make
+$ sudo make install
+$ sudo ldconfig
+````
